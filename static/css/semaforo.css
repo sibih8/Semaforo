@@ -1,0 +1,32 @@
+.semaforo {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #000000;
+    height: 360px; 
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+.luce {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+.spenta{
+    background-color: gray;
+}
+
+.verde {
+    background-color: green;
+}
+
+.rosso {
+    background-color: #ff1900; 
+}
